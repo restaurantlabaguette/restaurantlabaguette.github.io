@@ -105,7 +105,7 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 150px 0;
+  padding: 80px 0;
 }
 @media (max-width: 991px) {
   .section_gap {
@@ -625,7 +625,7 @@ button:focus {
 }
 
 .home_banner_area.common-banner {
-  background: url(../img/banner/common-banner.jpg) no-repeat scroll center center;
+  background: url(../img/banner/header.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 .home_banner_area.common-banner .banner_inner .fullscreen {
@@ -1012,9 +1012,6 @@ button:focus {
 /*----------------------------------------------------*/
 /* Menu List Area css
 ============================================================================================ */
-.menu_inner .col-lg-5 .menu_list:last-child {
-  margin-bottom: 0;
-}
 @media (max-width: 991px) {
   .menu_inner .col-lg-5 .menu_list:last-child {
     margin-bottom: 50;
@@ -1050,21 +1047,6 @@ button:focus {
 @media (max-width: 420px) {
   .menu_inner .menu_list .list li h4 {
     font-size: 16px;
-  }
-}
-.menu_inner .menu_list .list li h4:after {
-  margin-right: 15px;
-  content: ".......................";
-  float: none;
-}
-@media (max-width: 1024px) {
-  .menu_inner .menu_list .list li h4:after {
-    content: "............";
-  }
-}
-@media (max-width: 991px) {
-  .menu_inner .menu_list .list li h4:after {
-    content: "................................";
   }
 }
 .menu_inner .menu_list .list li h4 span {
@@ -3379,7 +3361,7 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background: url(../img/footer-bg.jpg) center no-repeat;
+  background: url(../img/banner/footer.jpg) center no-repeat;
   background-size: cover;
   z-index: 1;
   padding: 100px 0;
